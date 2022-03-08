@@ -1,0 +1,138 @@
+<!-- Created by Tapabrata 💞 Wixonic -->
+
+<!-- Created by Tapabrata Banerjee -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Digital Clock Version 1.0</title>
+        
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div id="box1">
+            <div id="box2">
+            <table>
+            <tr>
+                <td colspan = "3" align = "center">
+                    <label for = "time" style = "font-size: 10px">TIME</label>
+                </td>
+            </tr>
+            <tr>
+            <td colspan = "3" align ="center">
+                <input type="text" name="time" id="time" disabled> 
+            </td>
+            </tr>
+            <tr>
+            <tr><td> </td> <td></td></tr>
+            <tr><td align = "middle"><label for = "date" style="font-size:10px">DATE</label></td><td> </td><td align = "middle"><label for = "day" style = "font-size:10px">DAY</label></td></tr>
+                <td>
+                    <input type="text" name="date" id="date" disabled align = "center"> 
+                </td>
+                <td>&emsp;</td>
+                <td align = "center">
+                    <input type="text" name="day" id="day" disabled style = "padding: '3%'"> 
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td align = "right">TBClocks</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td align = "right" style = "font-size: 8px">DIGITAL 1.0</td>
+            </tr>
+            </table>
+            </div>
+        </div>
+        <center>
+        <p>Copyright 2021 &copy; Tapabrata Banerjee</p>
+        </center>
+        <script>
+setInterval(function(){
+           var d = new Date();
+var h, m, s, date, month, year, day;
+var dday, ampm, dh, dm, ds;
+h = d.getHours();
+m = d.getMinutes();
+s = d.getSeconds();
+day = d.getDay();
+month = d.getMonth();
+year = d.getFullYear();
+date = d.getDate();
+month++;
+switch (day)
+{
+    case 0:
+    dday = "SUN";
+    break;
+    case 1:
+    dday = "MON";
+    break;
+    case 2:
+    dday = "MARTES";
+    break;
+    case 3:
+    dday = "WED";
+    break;
+    case 4:
+    dday = "THU";
+    break;
+    case 5:
+    dday = "FRI";
+    break;
+    case 6:
+    dday = "SAT";
+    break;
+    default:
+    dday = "Error";
+}
+ampm = "a.m.";
+if (h>12)
+{
+    h-=12;
+    ampm = "p.m.";
+}
+if (h==0)
+{
+    h = 12;
+    ampm = "a.m.";
+}
+if (h<10)
+{
+    dh = "0" + h;
+}
+else 
+{
+    dh = "" + h;
+}
+if (m<10)
+{
+    dm = "0" + m;
+}
+else 
+{
+    dm = "" + m;
+}
+if (s<10)
+{
+    ds = "0" + s;
+}
+else 
+{
+    ds = "" + s;
+}
+document.getElementById("time").value = dh + " : " + dm + " : " + ds + " " + ampm;
+document.getElementById("date").value = date + "/" + month + "/" + year;
+document.getElementById("day").value = dday;
+}, 1000)
+        </script>
+    </body>
+</html>
