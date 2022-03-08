@@ -1,0 +1,78 @@
+/* Created by Tapabrata 💞 Wixonic */
+
+body{
+    background-color:#FFFFFF;
+}
+#box1{
+  background-color:#222222;
+  position:relative;
+  width:80%;
+  top:22vh;
+  left:5%;
+  padding:20px;
+  border:1px transparent;
+  border-radius:15px;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.2), 7px 7px 20px 0 rgba(0, 0, 0, 0.7);
+}
+#box2{
+  background-color:#CCCCCC;
+  position:relative;
+  padding:15px;
+  border:1px transparent;
+  border-radius: 5px;
+  align:center;
+}
+input[type = "text"]{
+  height:50px;
+  width: 90%;
+  font-size:24px;
+  background-color:#A9A75B;
+  border:1px solid transparent;
+  position:relative;
+  border-radius:0px;
+  color:black;
+  padding:6%;
+  text-align:center;
+  box-shadow: 2px 2px 6px #555 inset;
+}
+#day
+{
+  height:50px;
+  width: 92%;
+  font-size:18px;
+  background-color:#A9A75B;
+  border:1px solid transparent;
+  position:relative;
+  border-radius:0px;
+  color:black;
+  padding:6%;
+  text-align:center;
+  box-shadow: 2px 2px 6px #555 inset;;
+}
+#date
+{
+height:50px;
+  width: 92%;
+  font-size:16px;
+  background-color:#A9A75B;
+  border:1px solid transparent;
+  position:relative;
+  border-radius:0px;
+  color:black;
+  padding:6%;
+  text-align:center;
+  box-shadow: 2px 2px 6px #555 inset;
+  }
+*{
+  margin:0px;
+  padding:0px;
+  font-family: 'Orbitron', Courier, arial; 
+}
+p{
+   
+    position:absolute;
+    left:0%;
+    right:0%;
+    bottom:0px;
+    font-size:10px;
+}
