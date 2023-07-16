@@ -7,8 +7,6 @@ body{
 }
 
 .container{
-    color: #fff;
-    padding: 20px;
     font-size: 2em;
     font-weight: bold;
     -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -24,10 +22,11 @@ body{
 }
 
 #reloj{
-    background: #0f3057;
     border-radius: 5px;
     padding: 20px;
     text-align: center;
+    background: #f3f3f3;
+    margin: 20px;
 }
 
 
