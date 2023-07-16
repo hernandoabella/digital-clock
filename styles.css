@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap');
 
-body{
+body {
     font-family: 'Fraunces', serif;
     font-size: 1.3em;
-    background: #e7e7de;
+    background: #13cbd1;
 }
 
-.container{
+.container {
     font-size: 2em;
+    padding: 20px;
     font-weight: bold;
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     backdrop-filter: blur(16px) saturate(180%);
@@ -18,17 +19,9 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 320px;
 }
 
-#reloj{
+#reloj {
     border-radius: 5px;
-    padding: 20px;
     text-align: center;
-    background: #f3f3f3;
-    margin: 20px;
 }
-
-
-
-
