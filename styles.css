@@ -10,6 +10,7 @@ body{
     color: #fff;
     padding: 20px;
     font-size: 2em;
+    font-weight: bold;
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(255, 255, 255, 0.75);
@@ -20,13 +21,12 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 320px;
-    height: 250px;
 }
 
 #reloj{
     background: #0f3057;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
