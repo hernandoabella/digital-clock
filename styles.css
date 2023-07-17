@@ -21,29 +21,11 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 230px;
+    width: 220px;
 }
 
 #reloj {
-    border-radius: 5px;
     text-align: center;
-}
-
-.animacion,
-.animacion2 {
-    animation: animacion 0.1s;
-}
-
-@keyframes animacion {
-    50% {
-        transform: scale(1.5);
-    }
-}
-
-@keyframes animacion2 {
-    50% {
-        transform: scale(1.5);
-    }
 }
 
 @keyframes animacionFondo {
