@@ -3,41 +3,20 @@
 body {
     font-family: 'Fraunces', serif;
     font-size: 1.3em;
-    background: linear-gradient(90deg, #13cbd1, #cf5d3e);
-    background-size: 400% 400%;
-    animation: animacionFondo 6s ease infinite;
+    background: #13cbd1;
 }
 
 .container {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
     padding: 20px;
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
-    backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(255, 255, 255, 0.75);
-    border-radius: 12px;
-    border: 1px solid rgba(209, 213, 219, 0.3);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 220px;
 }
 
 #reloj {
     text-align: center;
-}
-
-@keyframes animacionFondo {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
