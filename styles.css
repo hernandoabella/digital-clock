@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Orbitron', sans-serif;
-    background: #060d50;
+    background: #040727;
 }
 
 .container {
@@ -14,11 +14,12 @@ body {
     border: 3px solid #13cbd1;
     border-radius: 32px;
     width: 300px;
+    box-shadow: rgba(19, 203, 209, 1) 0px 3px 8px;
 }
 
 #reloj {
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
     padding: 10px;
     font-size: 2em;
     font-weight: bold;
@@ -28,5 +29,5 @@ body {
 #fecha {
     color: #13cbd1;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
