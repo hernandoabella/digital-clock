@@ -2,13 +2,10 @@
 
 body {
     font-family: 'Fraunces', serif;
-    font-size: 1.3em;
     background: #13cbd1;
 }
 
 .container {
-    font-size: 3em;
-    font-weight: bold;
     padding: 20px;
     position: absolute;
     top: 50%;
@@ -19,4 +16,6 @@ body {
 #reloj {
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 2.4em;
+    font-weight: bold;
 }
