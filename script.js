@@ -31,8 +31,8 @@ const obtenerFechaActual = () => {
    let fecha = new Date();
    let opcionesFecha = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
    let fechaFormateada = fecha.toLocaleDateString('es-ES', opcionesFecha);
-   let primeraLetraMayuscula = fechaFormateada.charAt(0).toUpperCase() + fechaFormateada.slice(1);
-   return primeraLetraMayuscula;
+   let fechaMayuscula = fechaFormateada.toUpperCase();
+   return fechaMayuscula;
  };
  
 setInterval(mecanismo, 1000);
