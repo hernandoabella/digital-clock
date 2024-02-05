@@ -1,1 +1,1 @@
-# reloj-digital
+# digital-clock
